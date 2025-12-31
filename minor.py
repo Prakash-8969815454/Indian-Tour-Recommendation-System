@@ -192,4 +192,5 @@ with st.sidebar:
     st.dataframe(explore_data[['place_name', 'budget', 'activity']], hide_index=True)
 
 st.markdown("---")
+
 st.markdown("<p style='text-align: center; font-size: 0.8em; color: gray;'>Tourist Recommendation System | Built with Streamlit, TF-IDF, and Cosine Similarity.</p>", unsafe_allow_html=True)
